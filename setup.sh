@@ -30,16 +30,11 @@ fi
 create_default_configs() {
     cat > configs.json << EOL
 {
-    "timeZone": "en-US",
-    "rotateProxy": false,
-    "skipInvalidProxy": false,
-    "proxyRotationInterval": 2,
-    "delayEachAccount": [5, 8],
-    "timeToRestartAllAccounts": 300,
-    "howManyAccountsRunInOneTime": 10,
-    "doTasks": true,
-    "playGames": true,
-    "referralCode": ""
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "delayEachAccount": [1, 81],
+  "referralCode": "invite_nsw5k08999"
 }
 EOL
 }
@@ -55,7 +50,7 @@ check_configs() {
 while true; do
     clear
     echo "============================================================================"
-    echo "    name BOT SETUP AND RUN SCRIPT"
+    echo "    Reputation Builder BOT SETUP AND RUN SCRIPT"
     echo "============================================================================"
     echo
     echo "Current directory: $(pwd)"
@@ -115,7 +110,7 @@ while true; do
             else
                 print_green "Using node_modules from current directory"
             fi
-            node bot
+            cd "reputation builder" && node bot
             read -p "Press Enter to continue..."
             ;;
         4)
