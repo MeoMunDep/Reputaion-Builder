@@ -47,7 +47,7 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
 }
 ```
 
-### 2. `datas.txt` 🗂️ -
+### 2. `datas.txt` 🗂️ - Get data from [here](https://t.me/KeoAirDropFreeNe/257/6879).
 
 ```txt
 query_id.../user...
@@ -75,6 +75,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `node 1`
+> To run the bot, use the following command: `cd "reputation builder-main/reputation builder"; node 1`
 
 🎇Enjoy!
